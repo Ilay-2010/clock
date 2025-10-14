@@ -1,0 +1,20 @@
+
+body {
+    background-color: black;
+    font-family: Montserrat;
+}
+
+.clock {
+    color: white;
+    font-size: 20vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1000px) {
+    .clock {
+        font-size: 40vw;
+    }
+}
