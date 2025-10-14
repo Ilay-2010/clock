@@ -16,5 +16,7 @@ body {
 @media (max-width: 1000px) {
     .clock {
         font-size: 40vw;
+        line-height: 140%;
     }
+
 }
